@@ -3,37 +3,37 @@
 /* boom */
 
 body#css-zen-garden {
-    background-color: rgb(0, 192, 199);
+    background-color: rgba(199, 0, 0, 0.5);
 }
 
 div.page-wrapper {
-    background-color: rgb(96, 199, 0);
+    background-color: rgba(199, 126, 0, 0.5);
 }
 
 section.intro {
-    background-color: rgb(179, 199, 0);
+    background-color: rgba(199, 186, 0, 0.5);
 }
 
 div.main {
-    background-color: rgb(20, 0, 199);
+    background-color: rgba(99, 199, 0, 0.5);
 }
 
 div.participation {
-    background-color: rgb(199, 0, 176);
+    background-color: rgba(0, 199, 90, 0.5);
 }
 
 footer {
-    background-color: rgb(199, 0, 0);
+    background-color: rgba(0, 192, 199, 0.5);
 }
 
 aside.sidebar   {
-    background-color: rgb(0, 93, 199);
+    background-color: rgba(0, 113, 199, 0.5);
 }
 
 div.design-selection {
-    background-color: coral;
+    background-color: rgba(172, 76, 240, 0.5);
 }
 
 div.zen-resources {
-    background-color: darkgreen;
+    background-color: rgba(96, 2, 79, 0.5);
 }
