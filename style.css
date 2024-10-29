@@ -2,38 +2,72 @@
 
 /* boom */
 
-body#css-zen-garden {
-    background-color: rgba(199, 0, 0, 0.5);
+* {
+    color: rgb(130, 71, 178);
 }
 
+body#css-zen-garden {
+    background-image: url(media/background\ image.PNG);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    color: brown;
+}
+
+h2.summary {
+    color: green
+}
+
+
+
+
 div.page-wrapper {
-    background-color: rgba(199, 126, 0, 0.5);
+    background-color: rgba(199, 126, 0, 0.1);
 }
 
 section.intro {
-    background-color: rgba(199, 186, 0, 0.5);
+    background-color: rgba(199, 186, 0, 0.1);
 }
 
 div.main {
-    background-color: rgba(99, 199, 0, 0.5);
+    background-color: rgba(99, 199, 0, 0.1);
 }
 
 div.participation {
-    background-color: rgba(0, 199, 90, 0.5);
+    background-color: rgba(0, 199, 90, 0.1);
 }
 
 footer {
-    background-color: rgba(0, 192, 199, 0.5);
+    background-color: rgba(0, 192, 199, 0.1);
 }
 
 aside.sidebar   {
-    background-color: rgba(0, 113, 199, 0.5);
+    background-color: rgba(0, 113, 199, 0.1);
 }
 
 div.design-selection {
-    background-color: rgba(172, 76, 240, 0.5);
+    background-color: rgba(172, 76, 240, 0.1);
 }
 
 div.zen-resources {
-    background-color: rgba(96, 2, 79, 0.5);
+    background-color: rgba(96, 2, 79, 0.1);
+}
+
+
+
+
+
+
+a:visited {
+    text-decoration: overline;
+    text-shadow: 10px;
+    color: rgb(186, 46, 46);
+
+}
+
+a:link {
+    color: rgb(226, 150, 43);
 }
