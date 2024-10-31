@@ -2,16 +2,64 @@
 
 /* boom */
 
+
+/*font style*/
+
+@font-face {
+    font-family: "LATO";
+    src: url(Lato/Lato-Regular.ttf);
+}
+
+
+
+/* link style */
+
+a:link {
+    color: rgb(43, 165, 226);
+    text-decoration: none;
+} 
+
+a:hover {
+    color: rgb(58, 58, 140);
+    text-decoration: overline;
+
+}
+
+a:visited {
+    color: rgb(46, 58, 186);
+}
+
+
+
+/* everything */
+
 * {
     color: rgb(56, 39, 69);
     font-family: "LATO";
 }
 
-[class]:not(.page-wrapper, .main .supporting, .intro, .sidebar, .wrapper, .benefits #zen-supporting) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+[class] :not(.page-wrapper, .main .supporting, .intro, .sidebar, .wrapper, .benefits #zen-supporting)  { 
     display: flex;
+    
     flex-direction: column;
     justify-self: center;
+    justify-items: center;
+    align-self: center;
     align-items: center;
+    align-content: center;
     background-color: rgb(119, 71, 152);
     border-color: rgb(106, 74, 143);
     border-style: solid;
@@ -20,10 +68,7 @@
     position: absolute;
 }
 
-@font-face {
-    font-family: "LATO";
-    src: url(Lato/Lato-Regular.ttf);
-}
+
 
  /* body {
     background-image: url(media/background\ image\ 2.PNG);
@@ -90,18 +135,3 @@ div.zen-resources {
 
 
 
-a:link {
-    color: rgb(43, 165, 226);
-    text-decoration: none;
-} 
-
-a:hover {
-    color: rgb(58, 58, 140);
-    text-decoration: overline;
-
-
-}
-
-a:visited {
-    color: rgb(46, 58, 186);
-}
