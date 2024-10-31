@@ -4,19 +4,25 @@
 
 * {
     color: rgb(56, 39, 69);
-
+    font-family: "LATO";
 }
 
-[class]:not(.page-wrapper, .main .supporting, .intro, .sidebar, .wrapper, .benefits) {
+[class]:not(.page-wrapper, .main .supporting, .intro, .sidebar, .wrapper, .benefits #zen-supporting) {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-self: center;
     align-items: center;
     background-color: rgb(119, 71, 152);
     border-color: rgb(106, 74, 143);
     border-style: solid;
     border-radius: 10px;
-    max-width: 100px;
+    width: 800px;
+    position: absolute;
+}
+
+@font-face {
+    font-family: "LATO";
+    src: url(Lato/Lato-Regular.ttf);
 }
 
  /* body {
