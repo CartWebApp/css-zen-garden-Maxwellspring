@@ -193,8 +193,8 @@ html, body {
     height: 300px;
     margin-bottom: -270px;
     padding: 20px;
-    background-color: rgb(119, 71, 152);
-    border: 2px solid rgb(73, 47, 104);
+    background-color: rgb(123,108,168);
+    border: 2px solid rgb(49,29,102);
     border-radius: 10px;
     overflow: auto;
     transition: all 0.4s ease-in-out;
@@ -263,12 +263,12 @@ footer {
 }
 /* pull up files */
 [role="banner"]:hover, [role="article"]:hover, footer:hover, .zen-resources:hover, .design-selection:hover, .design-archives:hover {
-    transform: translateY(-50px);
+    transform: translateY(-0px);
 }
 
 /* Ensure bottom elements maintain the same style */
 .design-selection, .design-archives, .zen-resources {
-    background-color: rgb(119, 71, 152);
+    background-color: rgb(123,108,168);
     border: 2px solid rgb(73, 47, 104);
 }
 
