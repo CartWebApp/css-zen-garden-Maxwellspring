@@ -4,147 +4,10 @@
 
 /* boom */
 
-
-/*font style*/
-
-/* @font-face {
+@font-face {
     font-family: "LATO";
     src: url(Lato/Lato-Regular.ttf);
-} */
-
-
-
-/* link style */
-
-/* a:link {
-    color: rgb(43, 165, 226);
-    text-decoration: none;
-} 
-
-a:hover {
-    color: rgb(58, 58, 140);
-    text-decoration: overline;
-
 }
-
-a:visited {
-    color: rgb(46, 58, 186);
-}
-
-a:active {
-    color: rgb(21, 21, 161);
-    text-decoration: overline;
-
-}
-
-p:empty {
-    color: blueviolet;
-} */
-
-/* other */
-
-
-
-/* everything */
-
-/* * {
-    color: rgb(56, 39, 69);
-    font-family: "LATO";
-} */
-
-
-
-
-
-/* [class] :not(.page-wrapper, .main.supporting, .intro, .sidebar, .wrapper, .benefits #zen-supporting)  { 
-    display: flex;
-    
-    flex-direction: column;
-    justify-self: center;
-    justify-items: center;
-    align-self: center;
-    align-items: center;
-    align-content: center;
-    background-color: rgb(119, 71, 152);
-    border-color: rgb(106, 74, 143);
-    border-style: solid;
-    border-radius: 10px;
-    width: 800px;
-    position: absolute;
-
-} */
-
-
-
- /* body {
-    background-image: url(media/background\ image\ 2.PNG);
-
-    background-repeat: no-repeat;
-    background-size: 600vh;
-} */
-
-/* body#css-zen-garden {
-    margin: 0%;
-    padding: 0%;
-    height: 100vh;
-    background-image: url("media/background\ image\ 2.PNG"); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  
-h1 {
-    color: brown;
-}
-
-h2.summary {
-    color: green
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Base styles */
 * {
@@ -263,7 +126,7 @@ footer {
 }
 /* pull up files */
 [role="banner"]:hover, [role="article"]:hover, footer:hover, .zen-resources:hover, .design-selection:hover, .design-archives:hover {
-    transform: translateY(-0px);
+    transform: translateY(-50px);
 }
 
 /* Ensure bottom elements maintain the same style */
@@ -379,7 +242,7 @@ section:nth-last-of-type(even) {
 /* link style */
 
  a:link {
-    color: rgb(43, 165, 226);
+    color: rgb(32, 70, 88);
     text-decoration: none;
 } 
 
@@ -394,7 +257,7 @@ a:visited {
 }
 
 a:active {
-    color: rgb(21, 21, 161);
+    color: rgb(10, 10, 94);
     text-decoration: overline;
 
 }
